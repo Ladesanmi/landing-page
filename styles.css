@@ -1,0 +1,173 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-color: #1f2937;
+    padding: 50px 150px;
+    padding-top: 0px;
+}
+
+.nav{
+    display: flex;
+    gap: 16px;
+}
+
+.leftie h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.leftie p{
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 400px;
+}
+
+.leftie button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.second-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 32px;
+}
+
+img.desert{
+    width:400px;
+    height: 200px;
+}
+
+.first-content{
+    padding: 60px 140px;
+}
+
+.first-content h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.art{
+    width: 150px;
+}
+
+img.bird{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.quote{
+    text-align: left;
+    background-color: #e5e7eb;
+    padding: 80px 200px;
+
+}
+
+.quoted{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.call-header{
+    background-color: white;
+    padding: 80px 150px;
+    color: #e5e7eb;
+}
+
+.action-time{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.signspace{
+    color: #e5e7eb;
+    font-size: 24px;
+   
+}
+
+.action{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signspace .product{
+    margin: 0;
+    font-size: 18px;
+   
+}
+
+.action-time button{
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: large;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px 0px;
+}
